@@ -8,8 +8,6 @@ freopen("input.txt","r",stdin);
 freopen("output.txt","w",stdout);
 #endif
     int n,m;
-    cout<<"hello";
-    cout<<endl;
     cin>>n>>m;
     int arr[n][m];
     for (int i = 0; i < n; i++)
