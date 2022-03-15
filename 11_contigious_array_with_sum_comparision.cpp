@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int index,prev;
+    int index, prev;
     int arr[] = {64, 34, 25, 12, 22, 11, 90, 10, 3, 12, 7, 9, 11, 13, 15, 2, 11, 9, 8, 54, 76, 4, 74, 7854, 3, 63, 63, 74, 3, 3, 222, 9999, 6};
     int j = 2;
     int curr = 2;
@@ -15,7 +15,7 @@ int main()
     {
         prev = arr[i + 1] - arr[i];
         curr = 2;
-        index=0;
+        index = 0;
         j = 2;
         indexCount = 0;
         elementCount = 1;
@@ -47,7 +47,7 @@ int main()
             j++;
             ans = max(ans, curr);
         }
-        cout << ans<<" "<<index<<endl;
+        cout << ans << " " << index << endl;
     }
 
     cout << endl;

@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int a[] = { 8, 0,1,5, 3, 4, 3, 5, 6};
+    int a[] = { 11, 0,1,5, 3, 11, 3, 5, 6};
     int index[sizeof(a) / sizeof(a[0])];
     int mindex = INT8_MAX;
     for (int i = 0; i < (sizeof(a) / sizeof(a[0])); i++)
