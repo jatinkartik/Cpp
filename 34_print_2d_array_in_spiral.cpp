@@ -39,7 +39,7 @@ int main()
         // for row print
         for (int col = column_end; col >= column_start; col--)
         {
-            cout << " " << arr[row_end][col];
+					cout << " " << arr[row_end][col];
         }
         row_end--;
         // for col print
